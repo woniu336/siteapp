@@ -1,6 +1,4 @@
 ﻿#!/bin/bash
-#author: Lruihao
-
 git add .
 read -p "Please enter commit message: " commitMsg
 if [ -z $commitMsg ];then
